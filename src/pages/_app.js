@@ -2,6 +2,7 @@ import '../css/style.css'
 import '../css/form.css'
 import Head from 'next/head'
 import Link from 'next/link'
+import Hours from '../components/Hours';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -30,6 +31,7 @@ function MyApp({ Component, pageProps }) {
       <div className="grid wrapper">
         <Component {...pageProps} />
       </div>
+      <Hours/>
     </>
   )
 }

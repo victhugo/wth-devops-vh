@@ -17,7 +17,7 @@ const Hours = () => {
 
   // Render the component
   return (
-    <div>
+    <div className="schedule">
       <h2>Opening Hours</h2>
       <p>
         {isWeekday ? 'Weekday (Monday to Friday)' : 'Weekend (Saturday and Sunday)'}
